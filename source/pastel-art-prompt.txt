@@ -1,0 +1,15 @@
+Edit this existing two-sided Creative Studio Pass image. Keep its complete layout, both stacked cards, photograph, personal text, thin table divisions, large CREATIVE STUDIO PASS typography, signature, ghosted Mateus handwriting, barcode, card positions, proportions, and hand-made printed texture EXACTLY as in the input. The man and his entire photograph must remain identical: do not redraw, retouch, beautify, alter the face, expression, haircut, clothes, pose, lighting or vehicle.
+
+Make only a coordinated pastel palette change and a few specific decorative substitutions, so it feels personal rather than a direct duplicate of another designer's card:
+1. Change the two pale yellow cards to pastel lavender paper (#e5dbf4), preserving grain and subtle color variation.
+2. Change the hot pink fabric background to pastel sky blue (#bdd7e9), preserving the textile texture, original framing, margins and gap.
+3. Change the olive borders to muted dark gray-violet (#696276), and the vivid pink/red typography, signature outlines, QR, and bottom lines to readable dark plum (#654f7c). Black headlines and black personal data remain black.
+4. Change the faded oversized peach stars to very soft butter-yellow stars. Keep small star stickers in butter yellow and mint. Change the huge translucent Mateus handwritten background to softly blended dusty blue and blush pink.
+5. Replace the strawberry sticker in its same position and approximate size with a small vintage floppy-disk sticker in pastel blue and cream, with the same printed collage texture.
+6. Replace the small shiny green pin beside the portrait with a mint-green pixel cursor sticker, keeping its existing size and position.
+7. Change the red-orange 'pixel pusher' strip to a mint pastel strip labeled 'creative coder', with the same bold rough black typography and overlapping photo placement.
+8. Change the two tilted COFFEE creative fuel stamps to two 'CREATIVE CODE' stamps with the same black distressed illustrated label style, positions, shapes and scale.
+9. In the blue circular stamp, replace 'MADE IN PUNE' with 'MADE TO CREATE', retain 'APPROVED', and place 'MB' in the center, keeping its circle, distressed print style, position and blue color.
+10. Change 'code: #1111' to 'code: #0001'.
+
+Retain all other personalized words, particularly MATEUS BOMFIM, BOMFIXM, Mateus, ENG. SOFTWARE, FIAP, and the three GITHUB.COM/BOMFIXM lines. Retain the back header and footer. Preserve the QR area's size and location. Everything must stay sharp and readable, with the same bold typographic and sticker density of the input. DO NOT simplify into a modern generic credential. Do not add new sections, logos, badges or other objects. Keep the same portrait aspect ratio and output framing. Only the listed palette and decorative elements change.

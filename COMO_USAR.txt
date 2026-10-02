@@ -1,17 +1,16 @@
-TV + CARD ANIMADOS — @bomfixm
+TV + PASSE PASTEL — @bomfixm
 
 1. Extraia este pacote.
-2. No GitHub, crie (ou abra) o repositório público chamado bomfixm.
-   Ele precisa pertencer à conta bomfixm para aparecer no perfil.
-3. Envie o README.md e a pasta assets para a raiz desse repositório.
-   Se já usa a versão anterior, atualize o README e envie os novos arquivos do card.
+2. No GitHub, crie (ou abra) o repositório público chamado bomfixm, na conta bomfixm.
+3. Envie o README.md e a pasta assets para a raiz desse repositório. Se já usa a versão anterior, atualize o README e os arquivos bomfixm-card-roxo.gif e bomfixm-card-roxo.png.
 4. Confirme o envio com Commit changes.
 
-O README já exibe o card abaixo da TV. Ambos são GIFs em loop.
-Não há link para o portfólio e não é preciso adicionar outras seções.
-Os PNGs em assets são alternativas estáticas. O README usa os GIFs.
-A pasta source contém o desenho editável e a foto original do passe.
-Não precisa enviá-la para o GitHub.
+O passe aparece abaixo da TV. A arte traz frente e verso, com cores pastel e detalhes de código/design.
+Animação: brilho suave no papel e nos adesivos. A foto e os textos permanecem legíveis.
+A foto original foi aplicada diretamente, apenas com recorte e ajuste ao enquadramento.
+O QR é gerado com os dados https://github.com/bomfixm.
+Os PNGs são alternativas estáticas. O README usa os GIFs.
+Não é preciso enviar a pasta source para o GitHub.
 
-Para regenerar: Python 3, Pillow e NumPy.
-Execute source/generate_card.py para a TV e source/generate_pass.py para o card.
+A arte-base foi editada a partir da referência e personalizada com os dados profissionais fornecidos.
+Para regenerar o passe: Node.js, @napi-rs/canvas e FFmpeg; execute source/render_pass.mjs.

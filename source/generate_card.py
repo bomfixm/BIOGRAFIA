@@ -6,7 +6,6 @@ The geometry and beige/green palette follow the user's TV portfolio reference.
 from pathlib import Path
 import math
 import json
-import zipfile
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
@@ -285,25 +284,6 @@ if __name__=='__main__':
     frames=[f.quantize(palette=palette,dither=Image.Dither.NONE) for f in frames]
     frames[0].save(ASSETS/'bomfixm-tv.gif',save_all=True,append_images=frames[1:],duration=80,
                    loop=0,optimize=True,disposal=1)
-    (ROOT/'README.md').write_text(
-      '<p align="center">\n'
-      '  <img src="assets/bomfixm-tv.gif" width="960" '
-      'alt="TV retrô animada de Mateus Bomfim (@bomfixm). '
-      'Engenharia de Software na FIAP; Desenvolvimento Web e IA.">\n'
-      '</p>\n',encoding='utf-8')
-    (ROOT/'COMO_USAR.txt').write_text(
-      'CARD ANIMADO — @bomfixm\n\n'
-      '1. Extraia este pacote.\n'
-      '2. No GitHub, crie (ou abra) o repositório público chamado bomfixm.\n'
-      '   Ele precisa pertencer à conta bomfixm para aparecer no perfil.\n'
-      '3. Envie o README.md e a pasta assets para a raiz desse repositório.\n'
-      '   Se já existir um README, substitua seu conteúdo somente se desejar.\n'
-      '4. Confirme o envio com Commit changes.\n\n'
-      'O README exibe apenas a TV animada. Não tem link para o portfólio.\n'
-      'A pasta source contém o desenho editável em Python. Não precisa enviá-la.\n'
-      'O PNG em assets é uma alternativa estática. O README usa o GIF.\n\n'
-      'Animação: ciclo de 8,4 segundos, TV ligando, luz verde, cursor piscando,\n'
-      'colagens com movimento discreto e falhas breves na imagem.\n',encoding='utf-8')
     # Inspect the encoded output, including palette and frame timing.
     gif=Image.open(ASSETS/'bomfixm-tv.gif')
     durations=[]
@@ -319,6 +299,3 @@ if __name__=='__main__':
         tile=render(t).resize((480,325),Image.Resampling.LANCZOS)
         sheet.paste(tile,((k%2)*480,(k//2)*325))
     sheet.save(ROOT.parent/'bomfixm-tv-qa.png')
-    with zipfile.ZipFile(ROOT.parent/'bomfixm-github-tv.zip','w',zipfile.ZIP_DEFLATED) as z:
-        for p in sorted(ROOT.rglob('*')):
-            if p.is_file():z.write(p,p.relative_to(ROOT))
