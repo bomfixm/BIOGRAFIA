@@ -1,0 +1,15 @@
+CARD ANIMADO — @bomfixm
+
+1. Extraia este pacote.
+2. No GitHub, crie (ou abra) o repositório público chamado bomfixm.
+   Ele precisa pertencer à conta bomfixm para aparecer no perfil.
+3. Envie o README.md e a pasta assets para a raiz desse repositório.
+   Se já existir um README, substitua seu conteúdo somente se desejar.
+4. Confirme o envio com Commit changes.
+
+O README exibe apenas a TV animada. Não tem link para o portfólio.
+A pasta source contém o desenho editável em Python. Não precisa enviá-la.
+O PNG em assets é uma alternativa estática. O README usa o GIF.
+
+Animação: ciclo de 8,4 segundos, TV ligando, luz verde, cursor piscando,
+colagens com movimento discreto e falhas breves na imagem.
